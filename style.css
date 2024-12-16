@@ -1,3 +1,16 @@
 body {
+  background-color: #290833;
+}
+h2 {
+  color: #b37da3;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 800%;
+  text-shadow: 1px 3px 5px #d5a6e3;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
 
+img {
+  width: 70%;
+  height: 200px;
 }
