@@ -13,4 +13,9 @@ h2 {
 img {
   width: 70%;
   height: 200px;
+  transition: opacity 0.5s ease; 
+  opacity: 1;
+}
+img:hover {
+  opacity: 0.1;
 }
