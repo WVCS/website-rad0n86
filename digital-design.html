@@ -1,0 +1,137 @@
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <!-- nav bar -->
+      <nav class = "navbar">
+        <!-- logo -->
+        <div class = "logo">
+          <a href = "index.html"> <img src="alexs-csp-portfolio.png"> </a>
+        </div>
+        
+        <!-- Menu Items --> 
+        <ul class = "nav-menu">
+        <!-- Dropdown -->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+              <a href="chem-companion.html">Chem Companion</a>
+              <a href="digital-design.html">Digital Design</a>
+              <a href="basketball-game.html">Basketball Game</a>
+            </div>
+          </li>
+          
+          <!-- About Me -->
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    
+    
+    <main>
+      
+      <h1> Digital Design</h1>
+
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JmyBnEK407ipsAS0I4Ik715PX8OuxsYG1UGairYlvRs/embed?nosource"></iframe>
+  
+    </main>
+      
+</body>
+</html>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf5fc;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed; /* Sticks to the top */
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0.5% 1%;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo Styling */
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Menu List */
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0.5% 2%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    position: relative; /* For dropdown positioning */
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    top: 30px; 
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Last item styling */
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add spacing below fixed navbar */
+main {
+    margin-top: 100px; /* Matches navbar height */
+}
+</style>
