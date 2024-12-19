@@ -38,7 +38,7 @@ body {
 
 .nav-menu li {
     position: relative; /* For dropdown positioning */
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .nav-menu a {
@@ -97,6 +97,7 @@ main {
 
 
 #title {
+  margin-top: 100px;
   color: #201c20;
   font-family: 'Helvetica', sans-serif;
   font-size: 200%;
