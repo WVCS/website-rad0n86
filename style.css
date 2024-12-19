@@ -88,6 +88,25 @@ body {
     display: block;
 }
 
-#about {
-  
+/* Add spacing below fixed navbar */
+main {
+    margin-top: 100px; /* Matches navbar height */
+}
+
+#title {
+  color: #201c20;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 200%;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+#chill-img {
+  width: 70%;
+  height: 200px;
+  transition: opacity 0.5s ease; 
+  opacity: 1;
+}
+#chill-img:hover {
+  opacity: 0.1;
 }
