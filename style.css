@@ -111,6 +111,7 @@ main {
   opacity: 0.1;
 }
 
-.logo {
-  height: 10px
+#banner {
+  height: 75px;
+  width: 100px;
 }
