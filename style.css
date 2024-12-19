@@ -57,7 +57,7 @@ body {
 .dropdown-content {
     display: none; 
     position: absolute;
-    top: 30px; 
+    top: 20px; 
     left: 0;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -93,6 +93,9 @@ main {
     margin-top: 100px; /* Matches navbar height */
 }
 
+
+
+
 #title {
   color: #201c20;
   font-family: 'Helvetica', sans-serif;
@@ -113,5 +116,5 @@ main {
 
 #banner {
   height: 75px;
-  width: 100px;
+  width: 100%;
 }
