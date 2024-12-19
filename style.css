@@ -38,7 +38,7 @@ body {
 
 .nav-menu li {
     position: relative; /* For dropdown positioning */
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .nav-menu a {
