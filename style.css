@@ -88,10 +88,10 @@ body {
     display: block;
 }
 
-/* Add spacing below fixed navbar */
+
 main {
-    margin-top: 100px; /* Matches navbar height */
-  margin-left:1.5%;
+    margin-top: 100px; 
+    margin-left:1.5%;
 }
 
 #title {
