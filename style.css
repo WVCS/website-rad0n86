@@ -57,7 +57,7 @@ body {
 .dropdown-content {
     display: none; 
     position: absolute;
-    top: 20px; 
+    top: 25px; 
     left: 0;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -91,10 +91,8 @@ body {
 /* Add spacing below fixed navbar */
 main {
     margin-top: 100px; /* Matches navbar height */
+  margin-left:1.5%;
 }
-
-
-
 
 #title {
   margin-top: 100px;
